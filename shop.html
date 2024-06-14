@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylehive</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo1.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo1.png" alt="Stylehive logo" width="130" height="31">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Cart</p>
+
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Wishlisht</p>
+
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo1.png" alt="Stylehive logo" width="130" height="31">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="shop.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="subscribe.html" class="navbar-link">Subscribe</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category">
+        <div class="container">
+
+          <ul class="category-list">
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/w1.avif" alt="Women" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Women</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/m1.avif" alt="Men" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Men</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/win2.jpg" alt="Winter wear" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Winter Wear</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/sh.jpg" alt="footwear" loading="lazy" width="510"
+                  height="600" class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Footwear</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/su1.jpg" alt="Summer Wear" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Summer Wear</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="./assets/images/acc.jpg" alt="Accessories" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Accessories</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">Products of the week</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">Best Seller</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Hot Collection</button>
+            </li>
+
+
+            <li>
+              <button class="filter-btn">New Arrival</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/bag.avif" alt="Adidas Classic Backpack" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Adidas Classic Backpack</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="48.75">&dollar;48.75</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/whoodie.avif" alt="American Eagle Checked Hoodie" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">American Eagle Checked Hoodie</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="62.00">&dollar;62.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/shoe2.avif" alt="Nike Air More Uptempo Bg" loading="lazy"
+                      width="800" height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike Air More Uptempo Bg</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="89.00">&dollar;89.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/purple.avif" alt="MANGO Flared Sleeve Dress" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">MANGO Flared Sleeve Dress</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="68.00">&dollar;68.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/product-5.jpg" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Soft Touch Interlock Polo</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="40.00">&dollar;40.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/smart.avif" alt="Seventy Five Smart Watch" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Seventy Five Smart Watch</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="45.00">&dollar;45.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/sun.avif" alt="KAREN WALKER Women's Round Sunglasses" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">KAREN WALKER Women's Round Sunglasses</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="25.00">&dollar;25.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/shirt.avif" alt="Topman Floral Embroidered Front Shirt In Black" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Topman Floral Embroidered Front Shirt In Black</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="55.00">&dollar;55.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/women.avif" alt="Floral Print Suit & Pants" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Floral Print Suit & Pants</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="47.00">&dollar;47.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/perfume.avif" alt="Hugo Boss Bottled Infinite Eau De Parfum 50ml" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+
+                  <div class="card-actions">
+
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Hugo Boss Bottled Infinite Eau De Parfum 50ml</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="199.00">&dollar;199.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-outline">View All Products</button>
+
+        </div>
+      </section>
+
+     
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+
+</html>
